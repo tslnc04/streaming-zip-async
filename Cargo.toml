@@ -1,0 +1,14 @@
+[package]
+authors = [
+    "The packet-capture Authors <oss@nyantec.com>",
+    "SwitchFrame, Inc. <justin@vaxadigital.com>",
+]
+description = "A library to create zip files on a non-seekable writer, made async/"
+edition = "2021"
+name = "streaming-zip-async"
+version = "0.1.0"
+
+[dependencies]
+chrono = "0.4"
+crc = "2.1"
+miniz_oxide = "0.5"
